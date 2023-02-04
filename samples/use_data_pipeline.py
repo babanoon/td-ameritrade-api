@@ -10,7 +10,7 @@ from td.utils.enums import LevelTwoQuotes
 config = ConfigParser()
 
 # Read the file.
-config.read('config/config.ini')
+config.read('../config.ini')
 
 # Get the specified credentials.
 client_id = config.get('main', 'client_id')

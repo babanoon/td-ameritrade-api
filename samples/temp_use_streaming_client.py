@@ -35,7 +35,7 @@ account_number = config.get('main', 'account_number')
 td_credentials = TdCredentials(
     client_id=client_id,
     redirect_uri=redirect_uri,
-    credential_file='config/td_credentials.json'
+    credential_file='../config/td_credentials.json'
 )
 
 # Initalize the `TdAmeritradeClient`
